@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MZ9htDy7O6w=",
+  "success": true,
+  "projectFilePath": "/Users/hannahhaken/workarea/CodingChallenges/FavouritesFeature/FavouritesFeature.csproj",
+  "expectedPackageFiles": [
+    "/Users/hannahhaken/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/hannahhaken/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
