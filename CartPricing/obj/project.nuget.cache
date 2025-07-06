@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8YhGbzdMQH8=",
+  "dgSpecHash": "m1uJqyKGOeo=",
   "success": true,
   "projectFilePath": "/Users/hannahhaken/workarea/CodingChallenges/CartPricing/CartPricing.csproj",
   "expectedPackageFiles": [
-    "/Users/hannahhaken/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/hannahhaken/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "/Users/hannahhaken/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/hannahhaken/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }
