@@ -1,8 +1,10 @@
 using System.Collections.Generic;
 
+namespace FavouritesFeature;
+
 public class User
 {
-    public int Id { get; set; }
+    public int Id { get; init; }
     public string Name { get; set; }
-    public List<int> FavouriteRestaurantIds { get; set; } = new();
+    public List<int> FavouriteRestaurantIds { get; init; } = new();
 }

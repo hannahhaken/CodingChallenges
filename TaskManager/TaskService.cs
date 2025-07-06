@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+namespace TaskManager;
+
 public class TaskService
 {
     private readonly List<TaskItem> _tasks = new();
