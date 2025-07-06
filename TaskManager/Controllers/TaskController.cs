@@ -17,5 +17,6 @@ public class TaskController : ControllerBase
     public IActionResult AddTask([FromBody] TaskItem task)
     {
         var result = _taskService.Add(task.Title);
+        return null;
     }
 }
