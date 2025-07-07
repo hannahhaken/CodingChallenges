@@ -35,7 +35,7 @@ public class UserControllerTests
     }
 
     [Fact]
-    public void RemoveFavourites_ShouldReturnOk_WhenSuccessful()
+    public void RemoveFavourites_ShouldReturnNoContent_WhenSuccessful()
     {
         var mockService = new Mock<IUserService>();
         mockService

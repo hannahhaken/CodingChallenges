@@ -3,12 +3,12 @@ using System.Linq;
 
 namespace TaskManager;
 
-public class TaskService
+public class TaskService : ITaskService
 {
     private readonly List<TaskItem> _tasks = new();
     private int _nextId = 1;
 
-    public TaskItem Add(string title)
+    public TaskItem AddTask(string title)
     {
         var task = new TaskItem { Id = _nextId++, Title = title, Done = false };
         _tasks.Add(task);
@@ -17,15 +17,19 @@ public class TaskService
 
     public List<TaskItem> GetAll() => _tasks;
 
-    public void MarkDone(int id)
+    public bool MarkDone(int id)
     {
         var task = _tasks.FirstOrDefault(t => t.Id == id);
-        if (task != null) task.Done = true;
+        if (task == null) return false;
+        task.Done = true;
+        return true;
     }
 
-    public void Delete(int id)
+    public bool Delete(int id)
     {
         var task = _tasks.FirstOrDefault(t => t.Id == id);
-        if (task != null) _tasks.Remove(task);
+        if (task == null) return false;
+        _tasks.Remove(task);
+        return true;
     }
 }

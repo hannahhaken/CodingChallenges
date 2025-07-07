@@ -8,4 +8,5 @@ Build a basic in-memory task manager API.
 - `PATCH /tasks/{id}` - Mark as done
 - `DELETE /tasks/{id}` - Delete task
 
-Use the provided TaskService and TaskItem classes to implement the logic.
+Use the provided Task
+Service and TaskItem classes to implement the logic.

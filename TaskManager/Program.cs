@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 var tasks = new List<TaskItem>();
+builder.Services.AddSingleton<ITaskService>(new TaskService());
 
 var app = builder.Build();
 
